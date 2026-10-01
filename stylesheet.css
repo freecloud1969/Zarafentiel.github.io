@@ -11,12 +11,16 @@ body {
     padding: 1%;
     align-self: center;
     background-color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .main_content_skip {
     display: none;
 }
 .Introduction {
     text-align: center;
+    color:white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .dropdown {
     position: relative;
@@ -43,4 +47,20 @@ body {
     font-size: 100%;
     padding: 1%;
     border-top-left-radius: 0px;
+}
+.dropdownImg {
+    position: relative;
+}
+.dropdownImg-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+.dropdownImg:active .dropdownImg-content {
+    display: block;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
 }
