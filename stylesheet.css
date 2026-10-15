@@ -22,7 +22,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
-.topNav a{
+.tab {
     color: white;
     
 }
@@ -67,4 +67,7 @@ body {
 .desc {
     padding: 15px;
     text-align: center;
+}
+.modalImg:hover {
+    transform: scale(1.05);
 }
