@@ -3,9 +3,13 @@
 h1 {
     font-size: 5vw;
     text-align: center;
+    color: white;
 }
 a {
     font-size: 1.8vw;
+}
+p{
+    color: black;
 }
 body {
     padding: 1%;
@@ -18,13 +22,15 @@ body {
 }
 .Introduction {
     text-align: center;
-    color:white;
     padding-left: 5%;
     padding-right: 5%;
 }
 .tab {
     color: white;
-    
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 2vw;
 }
 .dropdown {
     position: relative;
@@ -70,4 +76,7 @@ body {
 }
 .modalImg:hover {
     transform: scale(1.05);
+}
+.modal-content{
+    align-content: center;
 }
