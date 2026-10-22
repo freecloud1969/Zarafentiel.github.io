@@ -52,7 +52,7 @@ body {
 
 .mainBody {
     border: solid black;
-    background-color: grey;
+    background-color: rgb(181, 180, 180);
     border-radius: 0px;
     font-size: 100%;
     padding: 1%;
